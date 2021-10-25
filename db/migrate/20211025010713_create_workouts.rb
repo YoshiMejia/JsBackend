@@ -1,0 +1,13 @@
+class CreateWorkouts < ActiveRecord::Migration[6.1]
+  def change
+    create_table :workouts do |t|
+      t.string :name
+      t.string :description
+      t.integer :sets
+      t.integer :reps
+      t.integer :completed
+
+      t.timestamps
+    end
+  end
+end
