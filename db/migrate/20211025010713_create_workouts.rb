@@ -6,7 +6,7 @@ class CreateWorkouts < ActiveRecord::Migration[6.1]
       t.integer :sets
       t.integer :reps
       t.integer :completed
-
+      t.integer :planner_id
       t.timestamps
     end
   end
