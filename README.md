@@ -1,24 +1,9 @@
-# README
+### WorkoutPlanner
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+# About
+Use WorkoutPlanner to have all your workouts for the day in one place. You can add workout name, the amount of sets/reps for each workout. As you complete each set, click the little + sign for your current workout and see the "completed" count rise as you get closer to your goal!
 
-* Ruby version
+* Ruby version : '2.6.1'
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* run migrations and rake db:seed to have dummy data seeded to database. Then run > rails s to startup server
