@@ -1,4 +1,4 @@
 class Workout < ApplicationRecord
     belongs_to :planner
-    validates :sets, :reps, numericality: { :greater_than => 1 }
+    accepts_nested_attributes_for :planner, :reject_if => proc { |attributes| attributes['name'].blank? }
 end
