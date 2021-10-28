@@ -14,4 +14,4 @@ abExtensions = Workout.create(name:'abdominal extensions', description:'lay on b
 romanian = Workout.create(name:'romanian deadlift', description:'bend over and pick up barbel', sets: 4, reps: 8, completed: 0, planner_id: 1)
 # dummy for ensuring validation works: crawl = Workout.create(name:'crawl', description:'crawl on ground', sets: 0, reps: 0, completed: 0, planner_id: 1)
 
-abDay = Planner.create(name:'abdominal day')
+cardioDay = Planner.create(name:'cardio day')
